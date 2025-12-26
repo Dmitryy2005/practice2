@@ -21,3 +21,10 @@ def power(a, b):
 def sqrt_num(a):
     if a<0: return 'Ошибка'
     return math.sqrt(a)
+import math
+
+def sin_deg(a):
+    return math.sin(math.radians(a))
+
+def cos_deg(a):
+    return math.cos(math.radians(a))
