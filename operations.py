@@ -28,3 +28,10 @@ def sin_deg(a):
 
 def cos_deg(a):
     return math.cos(math.radians(a))
+import math
+
+def floor_num(a):
+    return math.floor(a)
+
+def ceil_num(a):
+    return math.ceil(a)
